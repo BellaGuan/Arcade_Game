@@ -99,12 +99,12 @@ var Player = function (_Enemy) {
             if (this.y > 450) this.y -= TILE_HEIGHT;
 
             //到达对岸后弹出胜利页面
-            var winElem = document.getElementById('win-hidden');
+            var winElem = document.getElementById('win_hidden');
             if (this.y < 0) {
-                winElem.style.transform = "translateY(1100px)";
+                winElem.style.transform = "translateY(200px)";
             };
             if (this.y > 0) {
-                winElem.style.transform = "translateY(-1100px)";
+                winElem.style.transform = "translateY(-200px)";
             }
             this.collisionDetect();
         }

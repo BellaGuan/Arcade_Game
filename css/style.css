@@ -1,13 +1,3 @@
 body {
     text-align: center;
-    position: relative;
-}
-
-#win-hidden{
-    position: absolute;
-    top: -1000px;
-    left: 30%;
-}
-#win-hidden{
-    transform: translateY(-50px);
 }
