@@ -8,3 +8,6 @@ body {
     top: -1000px;
     left: 30%;
 }
+#win-hidden{
+    transform: translateY(-50px);
+}

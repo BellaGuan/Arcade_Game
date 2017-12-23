@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Arcade Game
 ## Getting started
 Clone or download the files to your computer, uncompress it and open the index.html with your browser, I recommend using Chrome.
